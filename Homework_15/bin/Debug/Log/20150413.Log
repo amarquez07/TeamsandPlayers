@@ -1,0 +1,201 @@
+2015/04/13 10:43:26 - System.InvalidCastException: Conversion from string "yyyy/mm/dd" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Homework_13.FEditPlayer.FEditPlayer_Shown(Object sender, EventArgs e) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Forms\Players\FEditPlayer.vb:line 93
+
+2015/04/13 10:43:37 - System.InvalidCastException: Conversion from string "yyyy/mm/dd" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Homework_13.FEditPlayer.FEditPlayer_Shown(Object sender, EventArgs e) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Forms\Players\FEditPlayer.vb:line 93
+
+2015/04/13 10:48:52 - System.InvalidCastException: Conversion from string "" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at Homework_13.FEditPlayer.SaveData() in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Forms\Players\FEditPlayer.vb:line 271
+
+2015/04/13 10:54:29 - System.InvalidCastException: Conversion from string "" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at Homework_13.FEditPlayer.SaveData() in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Forms\Players\FEditPlayer.vb:line 271
+
+2015/04/13 11:05:24 - System.ArgumentException: Argument 'NumDigitsAfterDecimal' must be within the range 0 to 99.
+   at Microsoft.VisualBasic.Strings.FormatCurrency(Object Expression, Int32 NumDigitsAfterDecimal, TriState IncludeLeadingDigit, TriState UseParensForNegativeNumbers, TriState GroupDigits)
+   at Homework_13.FEditPlayer.SaveData() in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Forms\Players\FEditPlayer.vb:line 270
+
+2015/04/13 11:14:27 - System.InvalidCastException: Conversion from string "yyyy/MM/dd" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Homework_13.modUtilities.PopulateEmptyDate(String strDate) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modUtilities.vb:line 477
+
+2015/04/13 11:15:37 - System.InvalidCastException: Conversion from string "yyyy/MM/dd" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Homework_13.modUtilities.PopulateEmptyDate(String strDate) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modUtilities.vb:line 477
+
+2015/04/13 11:16:07 - System.InvalidCastException: Conversion from string "yyyy/MM/dd" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Homework_13.modUtilities.PopulateEmptyDate(String strDate) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modUtilities.vb:line 477
+
+2015/04/13 11:18:02 - System.InvalidCastException: Conversion from string "yyyy/MM/dd" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Homework_13.modUtilities.PopulateEmptyDate(String strDate) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modUtilities.vb:line 477
+
+2015/04/13 11:18:04 - System.InvalidCastException: Conversion from string "" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at Homework_13.FEditPlayer.SaveData() in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Forms\Players\FEditPlayer.vb:line 271
+
+2015/04/13 11:18:35 - System.InvalidCastException: Conversion from string "yyyy/MM/dd" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Homework_13.modUtilities.PopulateEmptyDate(String strDate) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modUtilities.vb:line 477
+
+2015/04/13 11:18:49 - System.InvalidCastException: Conversion from string "" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at Homework_13.FEditPlayer.SaveData() in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Forms\Players\FEditPlayer.vb:line 271
+
+2015/04/13 11:20:40 - System.InvalidCastException: Conversion from string "yyyy/MM/dd" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Homework_13.modUtilities.PopulateEmptyDate(String strDate) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modUtilities.vb:line 477
+
+2015/04/13 11:22:07 - System.InvalidCastException: Conversion from string "yyyy/MM/dd" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Homework_13.modUtilities.PopulateEmptyDate(String strDate)
+
+2015/04/13 11:26:27 - System.InvalidCastException: Conversion from string "yyyy/MM/DD" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Homework_13.modUtilities.PopulateEmptyDate(String strDate) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modUtilities.vb:line 477
+
+2015/04/13 11:27:24 - System.InvalidCastException: Conversion from string "yyyy/MM/DD" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Homework_13.modUtilities.PopulateEmptyDate(String strDate) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modUtilities.vb:line 477
+
+2015/04/13 11:37:33 - System.InvalidCastException: Conversion from string "" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at Homework_13.modUtilities.CheckGenericDate(String strDate) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modUtilities.vb:line 513
+
+2015/04/13 19:01:17 - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Decimal.Parse(String s, NumberStyles style)
+   at Homework_13.FEditPlayer.SaveData() in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Forms\Players\FEditPlayer.vb:line 270
+
+2015/04/13 19:05:16 - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Decimal.Parse(String s, NumberStyles style)
+   at Homework_13.FEditPlayer.SaveData() in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Forms\Players\FEditPlayer.vb:line 270
+
+2015/04/13 21:48:20 - System.Data.OleDb.OleDbException (0x80040E07): Data type mismatch in criteria expression.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.AddPlayerToDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 475
+
+2015/04/13 22:33:35 - System.Data.OleDb.OleDbException (0x80040E14): Number of query values and destination fields are not the same.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.AddPlayerToDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 476
+
+2015/04/13 22:33:41 - System.Data.OleDb.OleDbException (0x80040E14): Number of query values and destination fields are not the same.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.AddPlayerToDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 476
+
+2015/04/13 22:33:44 - System.Data.OleDb.OleDbException (0x80040E14): Number of query values and destination fields are not the same.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.AddPlayerToDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 476
+
+2015/04/13 22:36:39 - System.Data.OleDb.OleDbException (0x80040E14): Number of query values and destination fields are not the same.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.AddPlayerToDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 476
+
+2015/04/13 22:56:47 - System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Homework_13.modDatabaseUtilities.GetPlayerInformationFromDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 593
+
+2015/04/13 22:56:53 - System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Homework_13.modDatabaseUtilities.GetPlayerInformationFromDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 593
+
+2015/04/13 22:57:37 - System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Homework_13.modDatabaseUtilities.GetPlayerInformationFromDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 593
+
+2015/04/13 22:57:43 - System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Homework_13.modDatabaseUtilities.GetPlayerInformationFromDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 593
+
+2015/04/13 23:16:36 - System.Data.OleDb.OleDbException (0x80040E14): Syntax error in INSERT INTO statement.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.AddPlayerToDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 486
+
+2015/04/13 23:20:06 - System.Data.OleDb.OleDbException (0x80040E14): Syntax error in INSERT INTO statement.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.AddPlayerToDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 486
+
+2015/04/13 23:22:15 - System.Data.OleDb.OleDbException (0x80040E14): Syntax error in INSERT INTO statement.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.AddPlayerToDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 486
+

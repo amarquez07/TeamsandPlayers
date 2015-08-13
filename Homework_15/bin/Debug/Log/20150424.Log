@@ -1,0 +1,85 @@
+2015/04/24 17:40:10 - System.InvalidOperationException: No data exists for the row/column.
+   at System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   at System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   at Homework_13.modDatabaseUtilities.AddTeamToDatabase2(udtTeamType& udtTeam) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Modules\modDatabaseUtilities.vb:line 593
+
+2015/04/24 17:44:06 - System.InvalidOperationException: No data exists for the row/column.
+   at System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   at System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   at Homework_13.modDatabaseUtilities.AddTeamToDatabase2(udtTeamType& udtTeam) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Modules\modDatabaseUtilities.vb:line 593
+
+2015/04/24 17:51:48 - System.InvalidOperationException: No data exists for the row/column.
+   at System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   at System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   at Homework_13.modDatabaseUtilities.AddTeamToDatabase2(udtTeamType& udtTeam) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Modules\modDatabaseUtilities.vb:line 593
+
+2015/04/24 18:09:07 - System.Data.OleDb.OleDbException (0x80040E14): Invalid column name 'strState'.
+   at System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at System.Data.OleDb.OleDbDataReader.NextResult()
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader()
+   at Homework_13.modDatabaseUtilities.LoadComboBoxFromDatabase(String strTable, String strPrimaryKey, String strNameColumn, ComboBox& cmbTarget) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Modules\modDatabaseUtilities.vb:line 337
+
+2015/04/24 18:09:48 - System.Data.OleDb.OleDbException (0x80040E14): Invalid column name 'strState'.
+   at System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at System.Data.OleDb.OleDbDataReader.NextResult()
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader()
+   at Homework_13.modDatabaseUtilities.LoadComboBoxFromDatabase(String strTable, String strPrimaryKey, String strNameColumn, ComboBox& cmbTarget) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Modules\modDatabaseUtilities.vb:line 337
+
+2015/04/24 18:12:29 - System.Data.OleDb.OleDbException (0x80040E14): Invalid column name 'strState'.
+   at System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at System.Data.OleDb.OleDbDataReader.NextResult()
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader()
+   at Homework_13.modDatabaseUtilities.LoadComboBoxFromDatabase(String strTable, String strPrimaryKey, String strNameColumn, ComboBox& cmbTarget) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Modules\modDatabaseUtilities.vb:line 337
+
+2015/04/24 18:13:03 - System.Data.OleDb.OleDbException (0x80040E14): Invalid column name 'strState'.
+   at System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at System.Data.OleDb.OleDbDataReader.NextResult()
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader()
+   at Homework_13.modDatabaseUtilities.LoadComboBoxFromDatabase(String strTable, String strPrimaryKey, String strNameColumn, ComboBox& cmbTarget) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Modules\modDatabaseUtilities.vb:line 337
+
+2015/04/24 18:14:31 - System.Data.OleDb.OleDbException (0x80040E14): Invalid column name 'strState'.
+   at System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at System.Data.OleDb.OleDbDataReader.NextResult()
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader()
+   at Homework_13.modDatabaseUtilities.LoadComboBoxFromDatabase(String strTable, String strPrimaryKey, String strNameColumn, ComboBox& cmbTarget) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Modules\modDatabaseUtilities.vb:line 337
+
+2015/04/24 19:56:39 - System.Data.OleDb.OleDbException (0x80004005): [DBNETLIB][ConnectionOpen (Connect()).]SQL Server does not exist or access denied.
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at Homework_13.modDatabaseUtilities.OpenDatabaseConnectionSQLServer() in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Modules\modDatabaseUtilities.vb:line 109
+
+2015/04/24 20:15:55 - System.IndexOutOfRangeException: dtmDateOfBirth
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   at System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   at Homework_13.modDatabaseUtilities.GetPlayerInformationFromDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Modules\modDatabaseUtilities.vb:line 1209
+
+2015/04/24 20:23:44 - System.IndexOutOfRangeException: dtmDateOfBirth
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   at System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   at Homework_13.modDatabaseUtilities.GetPlayerInformationFromDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Modules\modDatabaseUtilities.vb:line 1209
+
+2015/04/24 20:24:40 - System.IndexOutOfRangeException: dtmDateOfBirth
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   at System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   at Homework_13.modDatabaseUtilities.GetPlayerInformationFromDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Modules\modDatabaseUtilities.vb:line 1209
+

@@ -1,0 +1,72 @@
+2015/05/01 12:33:58 - System.InvalidCastException: Conversion from string "-Zip Code cannot be blank
+True" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Homework_13.FAddPlayer.IsValidData() in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Forms\Players\FAddPlayer.vb:line 124
+
+2015/05/01 12:33:59 - System.InvalidCastException: Conversion from string "9" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at Homework_13.modUtilities.PopulateEmptyDate(String strDate) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Modules\modUtilities.vb:line 472
+
+2015/05/01 12:34:00 - System.InvalidOperationException: Provider encountered an error while sending command parameter[0] '' value and stopped processing.
+Provider encountered an error while sending command parameter[1] '' value and stopped processing.
+Provider encountered an error while sending command parameter[2] '' value and stopped processing.
+Provider encountered an error while sending command parameter[3] '' value and stopped processing.
+Provider encountered an error while sending command parameter[4] '' value and stopped processing.
+Provider encountered an error while sending command parameter[5] '' value and stopped processing.
+Provider encountered an error while sending command parameter[6] '' value and stopped processing.
+Provider encountered an error while sending command parameter[7] '' value and stopped processing.
+Provider encountered an error while sending command parameter[8] '' value and stopped processing.
+Conversion failed for command parameter[9] '' because the data value overflowed the type used by the provider.
+Provider encountered an error while sending command parameter[10] '' value and stopped processing.
+Provider encountered an error while sending command parameter[11] '' value and stopped processing.
+Provider encountered an error while sending command parameter[12] '' value and stopped processing.
+ ---> System.Data.OleDb.OleDbException: Invalid character value for cast specification.
+   --- End of inner exception stack trace ---
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader()
+   at Homework_13.modDatabaseUtilities.AddPlayerToDatabase2(udtPlayerType& udtPlayer) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Modules\modDatabaseUtilities.vb:line 1229
+
+2015/05/01 12:34:31 - System.InvalidCastException: Conversion from string "-Zip Code cannot be blank
+True" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Homework_13.FAddPlayer.IsValidData() in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Forms\Players\FAddPlayer.vb:line 124
+
+2015/05/01 12:34:32 - System.InvalidCastException: Conversion from string "9" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at Homework_13.modUtilities.PopulateEmptyDate(String strDate) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Modules\modUtilities.vb:line 472
+
+2015/05/01 12:34:33 - System.InvalidOperationException: Provider encountered an error while sending command parameter[0] '' value and stopped processing.
+Provider encountered an error while sending command parameter[1] '' value and stopped processing.
+Provider encountered an error while sending command parameter[2] '' value and stopped processing.
+Provider encountered an error while sending command parameter[3] '' value and stopped processing.
+Provider encountered an error while sending command parameter[4] '' value and stopped processing.
+Provider encountered an error while sending command parameter[5] '' value and stopped processing.
+Provider encountered an error while sending command parameter[6] '' value and stopped processing.
+Provider encountered an error while sending command parameter[7] '' value and stopped processing.
+Provider encountered an error while sending command parameter[8] '' value and stopped processing.
+Conversion failed for command parameter[9] '' because the data value overflowed the type used by the provider.
+Provider encountered an error while sending command parameter[10] '' value and stopped processing.
+Provider encountered an error while sending command parameter[11] '' value and stopped processing.
+Provider encountered an error while sending command parameter[12] '' value and stopped processing.
+ ---> System.Data.OleDb.OleDbException: Invalid character value for cast specification.
+   --- End of inner exception stack trace ---
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader()
+   at Homework_13.modDatabaseUtilities.AddPlayerToDatabase2(udtPlayerType& udtPlayer) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Modules\modDatabaseUtilities.vb:line 1229
+

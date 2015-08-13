@@ -1,0 +1,62 @@
+2015/04/21 10:25:02 - System.Data.OleDb.OleDbException (0x80040E14): Syntax error (missing operator) in query expression 'strLastName + ', ' strFirstName'.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader()
+   at Homework_13.modDatabaseUtilities.LoadListBoxFromDatabase(String strTable, String strPrimaryKey, String strNameColumn, ListBox& lstTarget, String& strSortColumn, String& strCustomSQL) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_12\Homework\Homework_14\Modules\modDatabaseUtilities.vb:line 161
+
+2015/04/21 10:25:16 - System.Data.OleDb.OleDbException (0x80040E14): Syntax error (missing operator) in query expression 'strLastName + ', ' strFirstName'.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader()
+   at Homework_13.modDatabaseUtilities.LoadListBoxFromDatabase(String strTable, String strPrimaryKey, String strNameColumn, ListBox& lstTarget, String& strSortColumn, String& strCustomSQL) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_12\Homework\Homework_14\Modules\modDatabaseUtilities.vb:line 161
+
+2015/04/21 11:53:57 - System.Data.OleDb.OleDbException (0x80004005): The changes you requested to the table were not successful because they would create duplicate values in the index, primary key, or relationship. Change the data in the field or fields that contain duplicate data, remove the index, or redefine the index to permit duplicate entries and try again.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.AddPlayerToTeamInDatabase(Int32 intTeamID, Int32 intPlayerID) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Modules\modDatabaseUtilities.vb:line 782
+
+2015/04/21 11:54:00 - System.Data.OleDb.OleDbException (0x80004005): The changes you requested to the table were not successful because they would create duplicate values in the index, primary key, or relationship. Change the data in the field or fields that contain duplicate data, remove the index, or redefine the index to permit duplicate entries and try again.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.AddPlayerToTeamInDatabase(Int32 intTeamID, Int32 intPlayerID) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Modules\modDatabaseUtilities.vb:line 782
+
+2015/04/21 11:54:14 - System.ArgumentNullException: Value cannot be null.
+Parameter name: item
+   at System.Windows.Forms.ListBox.ObjectCollection.AddInternal(Object item)
+   at System.Windows.Forms.ListBox.ObjectCollection.Add(Object item)
+   at Homework_13.FAssignTeamPlayers.btnRemove_Click(Object sender, EventArgs e) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Forms\TeamPlayers\FAssignTeamPlayers.vb:line 267
+
+2015/04/21 11:54:20 - System.ArgumentNullException: Value cannot be null.
+Parameter name: item
+   at System.Windows.Forms.ListBox.ObjectCollection.AddInternal(Object item)
+   at System.Windows.Forms.ListBox.ObjectCollection.Add(Object item)
+   at Homework_13.FAssignTeamPlayers.btnRemove_Click(Object sender, EventArgs e) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Forms\TeamPlayers\FAssignTeamPlayers.vb:line 267
+
+2015/04/21 11:54:23 - System.ArgumentNullException: Value cannot be null.
+Parameter name: item
+   at System.Windows.Forms.ListBox.ObjectCollection.AddInternal(Object item)
+   at System.Windows.Forms.ListBox.ObjectCollection.Add(Object item)
+   at Homework_13.FAssignTeamPlayers.btnRemove_Click(Object sender, EventArgs e) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Forms\TeamPlayers\FAssignTeamPlayers.vb:line 267
+
+2015/04/21 11:54:37 - System.ArgumentNullException: Value cannot be null.
+Parameter name: item
+   at System.Windows.Forms.ListBox.ObjectCollection.AddInternal(Object item)
+   at System.Windows.Forms.ListBox.ObjectCollection.Add(Object item)
+   at Homework_13.FAssignTeamPlayers.btnRemove_Click(Object sender, EventArgs e) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_14\Homework\Homework_15\Forms\TeamPlayers\FAssignTeamPlayers.vb:line 267
+

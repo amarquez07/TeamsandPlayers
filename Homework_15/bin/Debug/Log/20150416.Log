@@ -1,0 +1,4 @@
+2015/04/16 14:43:10 - System.InvalidCastException: Conversion from string "2342-14-12" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at Homework_13.modUtilities.PopulateEmptyDate(String strDate) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_12\Homework\Homework_14\Modules\modUtilities.vb:line 491
+

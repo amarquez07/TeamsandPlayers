@@ -1,0 +1,39 @@
+2015/04/10 11:03:24 - System.InvalidCastException: Conversion from string "" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.Strings.FormatNumber(Object Expression, Int32 NumDigitsAfterDecimal, TriState IncludeLeadingDigit, TriState UseParensForNegativeNumbers, TriState GroupDigits)
+   at Homework_13.FEditPlayer.SaveData() in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Forms\Players\FEditPlayer.vb:line 258
+
+2015/04/10 11:07:31 - System.InvalidCastException: Conversion from string "" to type 'Decimal' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDecimal(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDecimal(String Value)
+   at Homework_13.FEditPlayer.SaveData() in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Forms\Players\FEditPlayer.vb:line 258
+
+2015/04/10 11:26:29 - System.Data.OleDb.OleDbException (0x80040E10): No value given for one or more required parameters.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.EditPlayerInDatabase(udtPlayerType& udtPlayer) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 696
+
+2015/04/10 11:33:30 - System.Data.OleDb.OleDbException (0x80040E10): No value given for one or more required parameters.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.EditPlayerInDatabase(udtPlayerType& udtPlayer) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 696
+
+2015/04/10 11:35:48 - System.Data.OleDb.OleDbException (0x80040E10): No value given for one or more required parameters.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.EditPlayerInDatabase(udtPlayerType& udtPlayer)
+

@@ -1,0 +1,65 @@
+2015/04/09 18:40:27 - System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Homework_13.modDatabaseUtilities.GetPlayerInformationFromDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 566
+
+2015/04/09 18:40:37 - System.ArgumentOutOfRangeException: InvalidArgument=Value of '2' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ListBox.set_SelectedIndex(Int32 value)
+   at Homework_13.modDatabaseUtilities.HighlightNextItemInList(ListBox& lstTarget, Int32 intSelectedIndex) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 766
+
+2015/04/09 18:42:13 - System.ArgumentOutOfRangeException: InvalidArgument=Value of '2' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ListBox.set_SelectedIndex(Int32 value)
+   at Homework_13.modDatabaseUtilities.HighlightNextItemInList(ListBox& lstTarget, Int32 intSelectedIndex) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 766
+
+2015/04/09 18:44:20 - System.ArgumentOutOfRangeException: InvalidArgument=Value of '2' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ListBox.set_SelectedIndex(Int32 value)
+   at Homework_13.modDatabaseUtilities.HighlightNextItemInList(ListBox& lstTarget, Int32 intSelectedIndex) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 766
+
+2015/04/09 19:26:27 - System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Homework_13.modDatabaseUtilities.GetPlayerInformationFromDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 569
+
+2015/04/09 19:28:58 - System.Data.OleDb.OleDbException (0x80040E14): Number of query values and destination fields are not the same.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.AddPlayerToDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 468
+
+2015/04/09 19:29:03 - System.Data.OleDb.OleDbException (0x80040E14): Number of query values and destination fields are not the same.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.AddPlayerToDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 468
+
+2015/04/09 20:01:11 - System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Homework_13.modDatabaseUtilities.GetPlayerInformationFromDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 571
+
+2015/04/09 20:17:39 - System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Homework_13.modDatabaseUtilities.GetPlayerInformationFromDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 571
+
+2015/04/09 20:18:36 - System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Homework_13.modDatabaseUtilities.GetPlayerInformationFromDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 571
+
+2015/04/09 22:10:45 - System.IndexOutOfRangeException: strSalary
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   at System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   at Homework_13.modDatabaseUtilities.GetPlayerInformationFromDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 574
+
+2015/04/09 22:11:19 - System.IndexOutOfRangeException: strSalary
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   at System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   at Homework_13.modDatabaseUtilities.GetPlayerInformationFromDatabase(udtPlayerType& udtPlayer) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 574
+

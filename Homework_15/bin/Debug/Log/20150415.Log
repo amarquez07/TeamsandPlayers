@@ -1,0 +1,16 @@
+2015/04/15 10:15:10 - System.InvalidOperationException: No data exists for the row/column.
+   at System.Data.OleDb.OleDbDataReader.DoValueCheck(Int32 ordinal)
+   at System.Data.OleDb.OleDbDataReader.GetValue(Int32 ordinal)
+   at System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   at Homework_13.modDatabaseUtilities.GetPlayerInformationFromDatabase(udtPlayerType& udtPlayer) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 581
+
+2015/04/15 11:03:56 - System.ArgumentOutOfRangeException: InvalidArgument=Value of '-2' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ListBox.set_SelectedIndex(Int32 value)
+   at Homework_13.modDatabaseUtilities.HighlightNextItemInList(ListBox& lstTarget, Int32 intSelectedIndex) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 812
+
+2015/04/15 11:05:02 - System.ArgumentOutOfRangeException: InvalidArgument=Value of '-2' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ListBox.set_SelectedIndex(Int32 value)
+   at Homework_13.modDatabaseUtilities.HighlightNextItemInList(ListBox& lstTarget, Int32 intSelectedIndex) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 812
+

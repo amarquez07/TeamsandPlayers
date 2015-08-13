@@ -1,0 +1,124 @@
+2015/04/20 11:37:40 - System.Data.OleDb.OleDbException (0x80040E37): The Microsoft Access database engine cannot find the input table or query 'VActivePlayers'. Make sure it exists and that its name is spelled correctly.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader()
+   at Homework_13.modDatabaseUtilities.LoadListBoxFromDatabase(String strTable, String strPrimaryKey, String strNameColumn, ListBox& lstTarget, String& strSortColumn, String& strCustomSQL) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_12\Homework\Homework_14\Modules\modDatabaseUtilities.vb:line 161
+
+2015/04/20 11:37:41 - System.Data.OleDb.OleDbException (0x80040E37): The Microsoft Access database engine cannot find the input table or query 'VActivePlayers'. Make sure it exists and that its name is spelled correctly.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader()
+   at Homework_13.modDatabaseUtilities.LoadListBoxFromDatabase(String strTable, String strPrimaryKey, String strNameColumn, ListBox& lstTarget, String& strSortColumn, String& strCustomSQL) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_12\Homework\Homework_14\Modules\modDatabaseUtilities.vb:line 161
+
+2015/04/20 11:39:56 - System.Data.OleDb.OleDbException (0x80040E37): The Microsoft Access database engine cannot find the input table or query 'VActivePlayers'. Make sure it exists and that its name is spelled correctly.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader()
+   at Homework_13.modDatabaseUtilities.LoadListBoxFromDatabase(String strTable, String strPrimaryKey, String strNameColumn, ListBox& lstTarget, String& strSortColumn, String& strCustomSQL) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_12\Homework\Homework_14\Modules\modDatabaseUtilities.vb:line 161
+
+2015/04/20 11:39:58 - System.Data.OleDb.OleDbException (0x80040E37): The Microsoft Access database engine cannot find the input table or query 'VActivePlayers'. Make sure it exists and that its name is spelled correctly.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader()
+   at Homework_13.modDatabaseUtilities.LoadListBoxFromDatabase(String strTable, String strPrimaryKey, String strNameColumn, ListBox& lstTarget, String& strSortColumn, String& strCustomSQL) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_12\Homework\Homework_14\Modules\modDatabaseUtilities.vb:line 161
+
+2015/04/20 20:00:45 - System.Data.OleDb.OleDbException (0x80040E14): Syntax error (missing operator) in query expression 'strLastName + ', ' + strFirstName AS strFullname'.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader()
+   at Homework_13.modDatabaseUtilities.LoadListBoxFromDatabase(String strTable, String strPrimaryKey, String strNameColumn, ListBox& lstTarget, String& strSortColumn, String& strCustomSQL) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_12\Homework\Homework_14\Modules\modDatabaseUtilities.vb:line 161
+
+2015/04/20 20:01:16 - System.Data.OleDb.OleDbException (0x80040E14): Syntax error (missing operator) in query expression 'strLastName + ', ' + strFirstName AS strFullname'.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader()
+   at Homework_13.modDatabaseUtilities.LoadListBoxFromDatabase(String strTable, String strPrimaryKey, String strNameColumn, ListBox& lstTarget, String& strSortColumn, String& strCustomSQL) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_12\Homework\Homework_14\Modules\modDatabaseUtilities.vb:line 161
+
+2015/04/20 20:01:46 - System.Data.OleDb.OleDbException (0x80040E14): Syntax error (missing operator) in query expression 'strLastName + ', ' + strFirstName  AS strFullname'.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader()
+   at Homework_13.modDatabaseUtilities.LoadListBoxFromDatabase(String strTable, String strPrimaryKey, String strNameColumn, ListBox& lstTarget, String& strSortColumn, String& strCustomSQL) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_12\Homework\Homework_14\Modules\modDatabaseUtilities.vb:line 161
+
+2015/04/20 20:45:52 - System.Data.OleDb.OleDbException (0x80004005): The record cannot be deleted or changed because table 'TTeamPlayers' includes related records.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.DeleteRecordsFromTable(Int32 intRecordID, String strPrimaryKey, String strTable, String strCustomSQL) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_12\Homework\Homework_14\Modules\modDatabaseUtilities.vb:line 419
+
+2015/04/20 21:21:26 - System.Data.OleDb.OleDbException (0x80040E14): Syntax error in UPDATE statement.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.SetPlayerStatusInDatabase(Int32 intPlayerID, Int32 intPlayerStatusID) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_12\Homework\Homework_14\Modules\modDatabaseUtilities.vb:line 1032
+
+2015/04/20 21:21:41 - System.Data.OleDb.OleDbException (0x80040E10): No value given for one or more required parameters.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.SetPlayerStatusInDatabase(Int32 intPlayerID, Int32 intPlayerStatusID) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_12\Homework\Homework_14\Modules\modDatabaseUtilities.vb:line 1032
+
+2015/04/20 21:30:20 - System.Data.OleDb.OleDbException (0x80040E10): No value given for one or more required parameters.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.SetPlayerStatusInDatabase(Int32 intPlayerID, Int32 intPlayerStatusID) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_12\Homework\Homework_14\Modules\modDatabaseUtilities.vb:line 1032
+
+2015/04/20 21:31:10 - System.Data.OleDb.OleDbException (0x80040E10): No value given for one or more required parameters.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.SetPlayerStatusInDatabase(Int32 intPlayerID, Int32 intPlayerStatusID) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_12\Homework\Homework_14\Modules\modDatabaseUtilities.vb:line 1032
+
+2015/04/20 21:41:24 - System.Data.OleDb.OleDbException (0x80040E10): No value given for one or more required parameters.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at Homework_13.modDatabaseUtilities.SetPlayerStatusInDatabase(Int32 intPlayerID, Int32 intPlayerStatusID) in C:\Users\marqueae\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_12\Homework\Homework_14\Modules\modDatabaseUtilities.vb:line 1082
+

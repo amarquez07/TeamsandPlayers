@@ -1,0 +1,45 @@
+2015/04/06 10:21:03 - System.Data.OleDb.OleDbException (0x80004005): 'C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Database\TeamsAndPlayers1.accdb' is not a valid path. Make sure that the path name is spelled correctly and that you are connected to the server on which the file resides.
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at Homework_13.modDatabaseUtilities.OpenDatabaseConnectionMSAcess() in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 51
+
+2015/04/06 11:11:40 - System.Data.OleDb.OleDbException (0x80004005): The table 'TPlayers' is already opened exclusively by another user, or it is already open through the user interface and cannot be manipulated programmatically.
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader()
+   at Homework_13.modDatabaseUtilities.LoadListBoxFromDatabase(String strTable, String strPrimaryKey, String strNameColumn, ListBox& lstTarget) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 152
+
+2015/04/06 11:12:03 - System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Homework_13.modDatabaseUtilities.GetPlayerInformationFromDatabase(udtPlayerType& udtPlayer) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 485
+
+2015/04/06 11:12:10 - System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Homework_13.modDatabaseUtilities.GetPlayerInformationFromDatabase(udtPlayerType& udtPlayer) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 485
+
+2015/04/06 11:13:05 - System.ArgumentOutOfRangeException: InvalidArgument=Value of '3' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ListBox.set_SelectedIndex(Int32 value)
+   at Homework_13.modDatabaseUtilities.HighlightNextItemInList(ListBox& lstTarget, Int32 intSelectedIndex) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 683
+
+2015/04/06 11:13:13 - System.ArgumentOutOfRangeException: InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ListBox.set_SelectedIndex(Int32 value)
+   at Homework_13.modDatabaseUtilities.HighlightNextItemInList(ListBox& lstTarget, Int32 intSelectedIndex) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 683
+
+2015/04/06 11:44:39 - System.ArgumentOutOfRangeException: InvalidArgument=Value of '9' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+   at System.Windows.Forms.ListBox.set_SelectedIndex(Int32 value)
+   at Homework_13.modDatabaseUtilities.HighlightNextItemInList(ListBox& lstTarget, Int32 intSelectedIndex) in C:\Users\amarquez\Dropbox\Classes\IT - 102 - .Net Programming 2\Week_11\Homework\Homework_13\Modules\modDatabaseUtilities.vb:line 688
+
