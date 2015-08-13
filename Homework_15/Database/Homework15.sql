@@ -120,14 +120,14 @@ CREATE TABLE TSexes
 -- --------------------------------------------------------------------------------
 --	Step #2: Identify and create foreign keys
 -- --------------------------------------------------------------------------------
---	#	Child				Parent				Column(s)
---	-	-----				------				---------
---	1	TTeams				TTeamStatuses		intTeamStatusID
---	2	TPlayers			TPlayerStatuses		intPlayerStatusID
---	3	TPlayers			TStates			intStateID
---	4	TPlayers			TSexes			intSexID
---	5	TTeamPlayers		TTeams				intTeamID
---	6	TTeamPlayers		TPlayers			intPlayerID
+--	#	Child			Parent			Column(s)
+--	-	-----			------			---------
+--	1	TTeams			TTeamStatuses		intTeamStatusID
+--	2	TPlayers		TPlayerStatuses		intPlayerStatusID
+--	3	TPlayers		TStates			intStateID
+--	4	TPlayers		TSexes			intSexID
+--	5	TTeamPlayers		TTeams			intTeamID
+--	6	TTeamPlayers		TPlayers		intPlayerID
 
 
 --	#1
@@ -251,14 +251,14 @@ CREATE PROCEDURE uspAddPlayer
 	 ,@strMiddleName				VARCHAR(50)
 	 ,@strLastName					VARCHAR(50)
 	 ,@strStreetAddress				VARCHAR(50)
-	 ,@strCity						VARCHAR(50)
+	 ,@strCity					VARCHAR(50)
 	 ,@intStateID					INTEGER
 	 ,@strZipcode					VARCHAR(50)
-	 ,@strHomePhoneNumber			VARCHAR(50)
+	 ,@strHomePhoneNumber				VARCHAR(50)
 	 ,@curSalary					MONEY
 	 ,@dteDateOfBirth				DATE
-	 ,@intSexID						INTEGER
-	 ,@blnMostValuablePlayer		BIT
+	 ,@intSexID					INTEGER
+	 ,@blnMostValuablePlayer			BIT
 	 ,@strEmailAddress				VARCHAR(50)
 
 AS
@@ -296,14 +296,14 @@ CREATE PROCEDURE uspEditPlayer
 	,@strMiddleName					VARCHAR(50)
 	,@strLastName					VARCHAR(50)
 	,@strStreetAddress				VARCHAR(50)
-	,@strCity						VARCHAR(50)
+	,@strCity					VARCHAR(50)
 	,@intStateID					INTEGER
 	,@strZipcode					VARCHAR(50)
-	,@strHomePhoneNumber			VARCHAR(50)
-	,@curSalary						MONEY
+	,@strHomePhoneNumber				VARCHAR(50)
+	,@curSalary					MONEY
 	,@dteDateOfBirth				DATE
-	,@intSexID						INTEGER
-	,@blnMostValuablePlayer			BIT
+	,@intSexID					INTEGER
+	,@blnMostValuablePlayer				BIT
 	,@strEmailAddress				VARCHAR(50)
 AS
 SET NOCOUNT ON			-- Report errors only
@@ -319,17 +319,17 @@ BEGIN TRANSACTION
 		,strMiddleName			= @strMiddleName
 		,strLastName			= @strLastName
 		,strStreetAddress		= @strStreetAddress
-		,strCity				= @strCity
-		,intStateID				= @intStateID
-		,strZipcode				= @strZipcode
+		,strCity			= @strCity
+		,intStateID			= @intStateID
+		,strZipcode			= @strZipcode
 		,strHomePhoneNumber		= @strHomePhoneNumber	
-		,curSalary				= @curSalary				
+		,curSalary			= @curSalary				
 		,dteDateOfBirth			= @dteDateOfBirth		
-		,intSexID				= @intSexID				
-		,blnMostValuablePlayer	= @blnMostValuablePlayer	
+		,intSexID			= @intSexID				
+		,blnMostValuablePlayer		= @blnMostValuablePlayer	
 		,strEmailAddress		= @strEmailAddress		
 	WHERE
-		intPlayerID	= @intPlayerID
+		intPlayerID			= @intPlayerID
 COMMIT TRANSACTION
 GO
 
@@ -408,10 +408,10 @@ BEGIN TRANSACTION
 	UPDATE
 		TTeams
 	SET
-		 strTeam = @strTeam
-		,strMascot = @strMascot
+		 strTeam	= @strTeam
+		,strMascot	= @strMascot
 	WHERE
-		intTeamID = @intTeamID
+		intTeamID	= @intTeamID
 
 COMMIT TRANSACTION
 GO
@@ -437,7 +437,7 @@ BEGIN TRANSACTION
 	SET
 		intTeamStatusID = @intTeamStatusID
 	WHERE
-		intTeamID = @intTeamID
+		intTeamID	= @intTeamID
 
 COMMIT TRANSACTION
 GO
@@ -448,7 +448,7 @@ GO
 -- --------------------------------------------------------------------------------
 GO
 CREATE PROCEDURE uspAddTeamPlayer
-	 @intTeamID					INTEGER
+	 @intTeamID				INTEGER
 	,@intPlayerID				INTEGER
 AS
 SET NOCOUNT ON			-- Report errors only
@@ -484,7 +484,7 @@ GO
 -- --------------------------------------------------------------------------------
 GO
 CREATE PROCEDURE uspRemoveTeamPlayer
-	 @intTeamID					INTEGER
+	 @intTeamID				INTEGER
 	,@intPlayerID				INTEGER
 AS
 SET NOCOUNT ON			-- Report errors only
@@ -497,7 +497,7 @@ BEGIN TRANSACTION
 		TTeamPlayers
 	WHERE
 		intTeamID	= @intTeamID
-	AND intPlayerID = @intPlayerID
+	AND 	intPlayerID	= @intPlayerID
 
 COMMIT TRANSACTION
 GO
@@ -509,96 +509,96 @@ GO
 -- --------------------------------------------------------------------------------
 INSERT INTO TTeamStatuses ( intTeamStatusID, strTeamStatus )
 VALUES	 ( 1, 'Active')
-		,( 2, 'Inactive')
+	,( 2, 'Inactive')
 
 
 INSERT INTO TPlayerStatuses ( intPlayerStatusID, strPlayerStatus )
 VALUES	 ( 1, 'Active')
-		,( 2, 'Inactive')
+	,( 2, 'Inactive')
 
 
 INSERT INTO TSexes ( intSexID, strSex )
 VALUES	 ( 1, 'Male' )
-		,( 2, 'Female' )
+	,( 2, 'Female' )
 
 
 INSERT INTO TTeams ( intTeamID, strTeam, strMascot, intTeamStatusID )
 VALUES	 ( 1, 'The East blue pirates', '', 1 )
-		,( 2, 'Grand Line Sluggers', '', 2 )
-		,( 3, 'New World Bullies', '', 1 )
-		,( 4, 'Raftel Big Dogs', '', 1 )
+	,( 2, 'Grand Line Sluggers', '', 2 )
+	,( 3, 'New World Bullies', '', 1 )
+	,( 4, 'Raftel Big Dogs', '', 1 )
 
 
 INSERT INTO TStates ( intStateID, strState, strStateAbbreviations )
 VALUES	 ( 1, 'Alabama', 'AL' )
-		,( 2, 'Alaska', 'AK' )
-		,( 3, 'Arizona', 'AZ' )
-		,( 4, 'Arkansas', 'AR' )
-		,( 5, 'California', 'CA' )
-		,( 6, 'Colorado', 'CO' )
-		,( 7, 'Connecticut', 'CT' )
-		,( 8, 'Delaware', 'DE' )
-		,( 9, 'Florida', 'FL' )
-		,( 10, 'Georgia', 'GA' )
-		,( 11, 'Hawaii', 'HI' )
-		,( 12, 'Idaho', 'ID' )
-		,( 13, 'Illinois', 'IL' )
-		,( 14, 'Indiana', 'IN' )
-		,( 15, 'Iowa', 'IA' )
-		,( 16, 'Kansas', 'KS' )
-		,( 17, 'Kentucky', 'KY' )
-		,( 18, 'Louisiana', 'LA' )
-		,( 19, 'Maine', 'ME' )
-		,( 20, 'Maryland', 'MD' )
-		,( 21, 'Massachusetts', 'MA' )
-		,( 22, 'Michigan', 'MI' )
-		,( 23, 'Minnesota', 'MN' )
-		,( 24, 'Mississippi', 'MS' )
-		,( 25, 'Missouri', 'MO' )
-		,( 26, 'Montana', 'MT' )
-		,( 27, 'Nebraska', 'NE' )
-		,( 28, 'Nevada', 'NV' )
-		,( 29, 'New Hampshire', 'NH' )
-		,( 30, 'New Jersey', 'NJ' )
-		,( 31, 'New Mexico', 'NM' )
-		,( 32, 'New York', 'NY' )
-		,( 33, 'North Carolina', 'NC' )
-		,( 34, 'North Dakota', 'ND' )
-		,( 35, 'Ohio', 'OH' )
-		,( 36, 'Oklahoma', 'OK' )
-		,( 37, 'Oregon', 'OR' )
-		,( 38, 'Pennsylvania', 'PA' )
-		,( 39, 'Rhode Island', 'RI' )
-		,( 40, 'South Carolina', 'SC' )
-		,( 41, 'South Dakota', 'SD' )
-		,( 42, 'Tennessee', 'TN' )
-		,( 43, 'Texas', 'TX' )
-		,( 44, 'Utah', 'UT' )
-		,( 45, 'Vermont', 'VT' )
-		,( 46, 'Virginia', 'VA' )
-		,( 47, 'Washington', 'WA' )
-		,( 48, 'West Virginia', 'WV' )
-		,( 49, 'Wisconsin', 'WI' )
-		,( 50, 'Wyoming', 'WY' )
-		,( 51, 'American Samoa', 'AS' )
-		,( 52, 'District of Columbia', 'DC' )
-		,( 53, 'Federated States of Micronesia', 'FM' )
-		,( 54, 'Guam', 'GU' )
-		,( 55, 'Marshall Islands', 'MH' )
-		,( 56, 'Northern Mariana Islands', 'MP' )
-		,( 57, 'Palau', 'PW' )
-		,( 58, 'Puerto Rico', 'PR' )
-		,( 59, 'Virgin Islands', 'VI' )
+	,( 2, 'Alaska', 'AK' )
+	,( 3, 'Arizona', 'AZ' )
+	,( 4, 'Arkansas', 'AR' )
+	,( 5, 'California', 'CA' )
+	,( 6, 'Colorado', 'CO' )
+	,( 7, 'Connecticut', 'CT' )
+	,( 8, 'Delaware', 'DE' )
+	,( 9, 'Florida', 'FL' )
+	,( 10, 'Georgia', 'GA' )
+	,( 11, 'Hawaii', 'HI' )
+	,( 12, 'Idaho', 'ID' )
+	,( 13, 'Illinois', 'IL' )
+	,( 14, 'Indiana', 'IN' )
+	,( 15, 'Iowa', 'IA' )
+	,( 16, 'Kansas', 'KS' )
+	,( 17, 'Kentucky', 'KY' )
+	,( 18, 'Louisiana', 'LA' )
+	,( 19, 'Maine', 'ME' )
+	,( 20, 'Maryland', 'MD' )
+	,( 21, 'Massachusetts', 'MA' )
+	,( 22, 'Michigan', 'MI' )
+	,( 23, 'Minnesota', 'MN' )
+	,( 24, 'Mississippi', 'MS' )
+	,( 25, 'Missouri', 'MO' )
+	,( 26, 'Montana', 'MT' )
+	,( 27, 'Nebraska', 'NE' )
+	,( 28, 'Nevada', 'NV' )
+	,( 29, 'New Hampshire', 'NH' )
+	,( 30, 'New Jersey', 'NJ' )
+	,( 31, 'New Mexico', 'NM' )
+	,( 32, 'New York', 'NY' )
+	,( 33, 'North Carolina', 'NC' )
+	,( 34, 'North Dakota', 'ND' )
+	,( 35, 'Ohio', 'OH' )
+	,( 36, 'Oklahoma', 'OK' )
+	,( 37, 'Oregon', 'OR' )
+	,( 38, 'Pennsylvania', 'PA' )
+	,( 39, 'Rhode Island', 'RI' )
+	,( 40, 'South Carolina', 'SC' )
+	,( 41, 'South Dakota', 'SD' )
+	,( 42, 'Tennessee', 'TN' )
+	,( 43, 'Texas', 'TX' )
+	,( 44, 'Utah', 'UT' )
+	,( 45, 'Vermont', 'VT' )
+	,( 46, 'Virginia', 'VA' )
+	,( 47, 'Washington', 'WA' )
+	,( 48, 'West Virginia', 'WV' )
+	,( 49, 'Wisconsin', 'WI' )
+	,( 50, 'Wyoming', 'WY' )
+	,( 51, 'American Samoa', 'AS' )
+	,( 52, 'District of Columbia', 'DC' )
+	,( 53, 'Federated States of Micronesia', 'FM' )
+	,( 54, 'Guam', 'GU' )
+	,( 55, 'Marshall Islands', 'MH' )
+	,( 56, 'Northern Mariana Islands', 'MP' )
+	,( 57, 'Palau', 'PW' )
+	,( 58, 'Puerto Rico', 'PR' )
+	,( 59, 'Virgin Islands', 'VI' )
 
 -- Need to find a way to make this WAAAAY better looking
 INSERT INTO TPlayers ( intPlayerID, strFirstName, strMiddleName, strLastName, strStreetAddress, strCity, intStateID, strZipcode				
-						,strHomePhoneNumber, curSalary, dteDateOfBirth, intSexID, blnMostValuablePlayer, strEmailAddress, intPlayerStatusID )
+			,strHomePhoneNumber, curSalary, dteDateOfBirth, intSexID, blnMostValuablePlayer, strEmailAddress, intPlayerStatusID )
 VALUES	 ( 1, 'Fiann', '', 'Erba', '', 'Carol Stream', 4, '60188', '', 20377, '1965/05/25', 1, 0, '', 1 )
-		,( 2, 'Cullie', '', 'Scepan', '', 'Redford', 49, '48239', '', 1595, '1988/02/29', 1, 0, '', 1 )
-		,( 3, 'Darlleen', '', 'Boyd', '', 'Durham', 16, '27703', '', 34774, '1974/05/17', 2, 1, '', 1 )
-		,( 4, 'Washington', '', 'Belser', '', 'Nanuet', 24, '10954', '', 47804, '2008/02/22', 2, 1, '', 1 )
-		,( 5, 'Gayel', '', 'Bonadies', '', 'Chicago', 10, '60621', '', 8858, '2011/02/23', 2, 1, '', 1 )
-		,( 6, 'Aylmer', '', 'Muello', '', 'Southington', 20, '6489', '', 28524, '2001/09/14', 2, 0, '', 1 )
+	,( 2, 'Cullie', '', 'Scepan', '', 'Redford', 49, '48239', '', 1595, '1988/02/29', 1, 0, '', 1 )
+	,( 3, 'Darlleen', '', 'Boyd', '', 'Durham', 16, '27703', '', 34774, '1974/05/17', 2, 1, '', 1 )
+	,( 4, 'Washington', '', 'Belser', '', 'Nanuet', 24, '10954', '', 47804, '2008/02/22', 2, 1, '', 1 )
+	,( 5, 'Gayel', '', 'Bonadies', '', 'Chicago', 10, '60621', '', 8858, '2011/02/23', 2, 1, '', 1 )
+	,( 6, 'Aylmer', '', 'Muello', '', 'Southington', 20, '6489', '', 28524, '2001/09/14', 2, 0, '', 1 )
 --		,( 7, 'Alla', '', 'Massam', '', 'Columbus', 1, '31904', '', 57322, '1999/10/19', 2, 0, '', 1 )
 --		,( 8, 'Matthus', '', 'Axelrod', '', 'Sunnyside', 55, '11104', '', 1020, '1966/04/21', 2, 0, '', 1 )
 --		,( 9, 'Farrand', '', 'Ghemawat', '', 'Birmingham', 43, '35209', '', 74828, '1999/08/19', 1, 0, '', 1 )
