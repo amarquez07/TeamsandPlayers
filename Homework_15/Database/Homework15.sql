@@ -19,12 +19,12 @@ SET NOCOUNT ON				-- Reports errors only
 
 -- Tables
 IF OBJECT_ID('TTeamPlayers')						IS NOT NULL DROP TABLE TTeamPlayers
-IF OBJECT_ID('TTeams')								IS NOT NULL DROP TABLE TTeams
-IF OBJECT_ID('TPlayers')							IS NOT NULL DROP TABLE TPlayers
+IF OBJECT_ID('TTeams')							IS NOT NULL DROP TABLE TTeams
+IF OBJECT_ID('TPlayers')						IS NOT NULL DROP TABLE TPlayers
 IF OBJECT_ID('TTeamStatuses')						IS NOT NULL DROP TABLE TTeamStatuses
 IF OBJECT_ID('TPlayerStatuses')						IS NOT NULL DROP TABLE TPlayerStatuses
-IF OBJECT_ID('TStates')								IS NOT NULL DROP TABLE TStates
-IF OBJECT_ID('TSexes')								IS NOT NULL DROP TABLE TSexes
+IF OBJECT_ID('TStates')							IS NOT NULL DROP TABLE TStates
+IF OBJECT_ID('TSexes')							IS NOT NULL DROP TABLE TSexes
 
 IF OBJECT_ID('VActivePlayers')						IS NOT NULL DROP VIEW VActivePlayers
 IF OBJECT_ID('VInactivePlayers')					IS NOT NULL DROP VIEW VInactivePlayers
@@ -38,8 +38,8 @@ IF OBJECT_ID('uspAddPlayer')						IS NOT NULL DROP PROCEDURE uspAddPlayer
 IF OBJECT_ID('uspEditPlayer')						IS NOT NULL DROP PROCEDURE uspEditPlayer
 IF OBJECT_ID('uspSetPlayerstatus')					IS NOT NULL DROP PROCEDURE uspSetPlayerstatus
 -- Teams
-IF OBJECT_ID('uspAddTeam')							IS NOT NULL DROP PROCEDURE uspAddTeam
-IF OBJECT_ID('uspEditTeam')							IS NOT NULL DROP PROCEDURE uspEditTeam
+IF OBJECT_ID('uspAddTeam')						IS NOT NULL DROP PROCEDURE uspAddTeam
+IF OBJECT_ID('uspEditTeam')						IS NOT NULL DROP PROCEDURE uspEditTeam
 IF OBJECT_ID('uspSetTeamStatus')					IS NOT NULL DROP PROCEDURE uspSetTeamStatus
 -- Team players
 IF OBJECT_ID('uspAddTeamPlayer')					IS NOT NULL DROP PROCEDURE uspAddTeamPlayer
@@ -53,16 +53,16 @@ IF OBJECT_ID('uspSetTeamStatus')					IS NOT NULL DROP PROCEDURE uspSetTeamStatus
 
 CREATE TABLE TTeams
 (
-	 intTeamID								INTEGER								NOT NULL
-	,strTeam								VARCHAR(50)							NOT NULL
-	,strMascot								VARCHAR(50)							NOT NULL
+	 intTeamID							INTEGER								NOT NULL
+	,strTeam							VARCHAR(50)							NOT NULL
+	,strMascot							VARCHAR(50)							NOT NULL
 	,intTeamStatusID						INTEGER								NOT NULL
 	,CONSTRAINT TTeams_PK PRIMARY KEY ( intTeamID )
 )
 
 CREATE TABLE TTeamPlayers
 (
-	 intTeamID								INTEGER								NOT NULL
+	 intTeamID							INTEGER								NOT NULL
 	,intPlayerID							INTEGER								NOT NULL
 	,CONSTRAINT TTeamPlayers_PK PRIMARY KEY ( intTeamID, intPlayerID )
 )
@@ -74,14 +74,14 @@ CREATE TABLE TPlayers
 	,strMiddleName							VARCHAR(50)							NOT NULL
 	,strLastName							VARCHAR(50)							NOT NULL
 	,strStreetAddress						VARCHAR(50)							NOT NULL
-	,strCity								VARCHAR(50)							NOT NULL
-	,intStateID								INTEGER								NOT NULL
-	,strZipcode								VARCHAR(50)							NOT NULL
+	,strCity							VARCHAR(50)							NOT NULL
+	,intStateID							INTEGER								NOT NULL
+	,strZipcode							VARCHAR(50)							NOT NULL
 	,strHomePhoneNumber						VARCHAR(50)							NOT NULL
-	,curSalary								MONEY								NOT NULL
+	,curSalary							MONEY								NOT NULL
 	,dteDateOfBirth							DATE								NOT NULL
-	,intSexID								INTEGER								NOT NULL
-	,blnMostValuablePlayer					BIT									NOT NULL
+	,intSexID							INTEGER								NOT NULL
+	,blnMostValuablePlayer						BIT									NOT NULL
 	,strEmailAddress						VARCHAR(50)							NOT NULL
 	,intPlayerStatusID						INTEGER								NOT NULL
 	,CONSTRAINT TPlayers_PK PRIMARY KEY ( intPlayerID )
@@ -103,16 +103,16 @@ CREATE TABLE TTeamStatuses
 
 CREATE TABLE TStates
 (
-	 intStateID								INTEGER								NOT NULL
-	,strState								VARCHAR(50)							NOT NULL
-	,strStateAbbreviations					VARCHAR(50)							NOT NULL
+	 intStateID							INTEGER								NOT NULL
+	,strState							VARCHAR(50)							NOT NULL
+	,strStateAbbreviations						VARCHAR(50)							NOT NULL
 	,CONSTRAINT TStates_PK PRIMARY KEY ( intStateID )
 )
 
 CREATE TABLE TSexes
 (
-	 intSexID								INTEGER								NOT NULL
-	,strSex									VARCHAR(50)							NOT NULL
+	 intSexID							INTEGER								NOT NULL
+	,strSex								VARCHAR(50)							NOT NULL
 	,CONSTRAINT TSexes_PK PRIMARY KEY ( intSexID )
 )
 
@@ -124,8 +124,8 @@ CREATE TABLE TSexes
 --	-	-----				------				---------
 --	1	TTeams				TTeamStatuses		intTeamStatusID
 --	2	TPlayers			TPlayerStatuses		intPlayerStatusID
---	3	TPlayers			TStates				intStateID
---	4	TPlayers			TSexes				intSexID
+--	3	TPlayers			TStates			intStateID
+--	4	TPlayers			TSexes			intSexID
 --	5	TTeamPlayers		TTeams				intTeamID
 --	6	TTeamPlayers		TPlayers			intPlayerID
 
